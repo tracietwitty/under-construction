@@ -1,7 +1,7 @@
 const background = document.querySelector('.background');
 
 let load = 0;
-let int = setInterval(blurring, 15);
+let int = setInterval(blurring, 10);
 
 function blurring() {
   load++;
